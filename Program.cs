@@ -62,7 +62,7 @@ else
 */
 
 // 6-misol Son yasash
-
+/*
 Console.Write("a sonni kiriting:");
 int a = int.Parse(Console.ReadLine());
 Console.Write("b sonni kiriting:");
@@ -77,5 +77,41 @@ else
 {
     Console.WriteLine(0);
 }
+*/
 
+// For oid misollar 
+/*
+int a = 10;
+int sum = 0;
+for (int i = 0; i <= a; i++)
+{
+    sum = sum + i;
+    Console.WriteLine(sum);
+}
+*/
+// Juft sonlar yig'indisi
+/* 
+ * int n = 5;
+int sum1 = 0;
+for(int i =0; i<=n; i++)
+{
+    if(i%2==0)
+    {
+        sum1 = sum1 + i;
+        Console.WriteLine(sum1);
+    }
+}
+*/
 
+// Toq sonlar yig'indisi 
+
+int n = 5;
+int sum1 = 0;
+for (int i = 0; i <= n; i++)
+{
+    if (i % 2 != 0)
+    {
+        sum1 = sum1 + i;
+        Console.WriteLine("Natija: " +  sum1);
+    }
+}
