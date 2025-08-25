@@ -62,7 +62,7 @@ else
 */
 
 // 6-misol Son yasash
-/*
+
 Console.Write("a sonni kiriting:");
 int a = int.Parse(Console.ReadLine());
 Console.Write("b sonni kiriting:");
@@ -77,5 +77,5 @@ else
 {
     Console.WriteLine(0);
 }
-*/
+
 
